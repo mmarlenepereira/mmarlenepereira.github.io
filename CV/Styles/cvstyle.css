@@ -1,0 +1,27 @@
+
+
+body {
+      color: whitesmoke;
+    background-color: orange;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  h1 {
+    color: black;
+    font-family: Arial;
+  }
+  
+  h2 {
+    color: darkblue;
+    font-family: Arial;
+  }
+
+  h3 {
+    color: darkblue;
+    font-family: Arial;
+  }
+
+  ul {
+    display:inline-block;
+  }
