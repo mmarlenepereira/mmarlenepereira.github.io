@@ -1,0 +1,37 @@
+
+
+body {
+      color: whitesmoke;
+    background-color: orange;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  h1 {
+    color: black;
+    font-family: Arial;
+  }
+  
+  h2 {
+    color: darkblue;
+    font-family: Arial;
+  }
+
+  h3 {
+    color: darkblue;
+    font-family: Arial;
+  }
+ 
+  .CV{
+    background-color: rgb(182, 178, 178);
+    text-align: left;
+    color: rgb(55, 49, 49);
+    font-family: Arial;
+    font-size: 11;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+
+  ul {
+    display:inline-block;
+  }
