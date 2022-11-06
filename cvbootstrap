@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+    <link rel="stylesheet" type="text/css" href="https://mmarlenepereira.github.io/cvstyle.css"/>
+        <title>Maria's CV</title>    
+    </head>
+
+    <body>
+        <h1>Maria Marlene Pereira</h1>
+        <a href="CoverLetter.html" target="_blank"> Please read my Cover Letter </a>
+        <br><br/>
+        <img src="/photo.png" alt="Professional headshot of me, wearing a red scarf wrapped around the neck" width="290" height="250">
+        <p></p>
+        <h2>Education</h2> 
+        <ul>
+            <li>Science in Computing, National College of Ireland (2022)</li>
+            <li>Big Data for Business, Dublin BUsiness School (2020)</li>
+          </ul>     
+        <h2>Experience</h2>  
+        <ul>
+            <li>Tech Support, Salesforce </li>
+            <li>Marketing Manager, other</li>
+          </ul>    
+        <h2>Skills</h2> 
+        <li>HTML </li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        
+        <br></b>
+        <h3>CONTACT ME!</h3>     
+        <a href="https://www.linkedin.com/in/mariamarlenepereira" target="_blank"> Let's connect on LinkedIn</a>    |    <a href="mailto:x22115234@student.ncirl.ie" target="_blank">Email me</a>
+    </body>
+</html>
