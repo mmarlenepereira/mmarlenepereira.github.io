@@ -1,33 +1,106 @@
+<!--
+    Higher Diploma in Science in Computing Information
+    Module: Web Design and Client Side Scripting
+    Student: Maria Marlene Silva Pereira // 22115234
+    Week 6 - Lab - Bootstrap
+-->
 <!DOCTYPE html>
 <html>  
     <head>
-    <link rel="stylesheet" type="text/css" href="https://mmarlenepereira.github.io/cvstyle.css"/>
-        <title>Maria's CV</title>    
+        <title>Maria's CV using Bootstrap Grids</title>
+        <!-- Bootstrap References-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+        
+        <!-- Style -->
+        <style>
+            body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 {
+              background-color: #ffa500; /* Orange */
+              color: #ffffff;
+            }
+            .bg-2 {
+              background-color: #ffffff; /* White */
+              color: #555555;
+            }
+            .bg-3 { 
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+            }
+            .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+            }
+            </style>
     </head>
 
     <body>
-        <h1>Maria Marlene Pereira</h1>
-        <a href="CoverLetter.html" target="_blank"> Please read my Cover Letter </a>
-        <br><br/>
-        <img src="/photo.png" alt="Professional headshot of me, wearing a red scarf wrapped around the neck" width="290" height="250">
-        <p></p>
-        <h2>Education</h2> 
-        <ul>
-            <li>Science in Computing, National College of Ireland (2022)</li>
-            <li>Big Data for Business, Dublin BUsiness School (2020)</li>
-          </ul>     
-        <h2>Experience</h2>  
-        <ul>
-            <li>Tech Support, Salesforce </li>
-            <li>Marketing Manager, other</li>
-          </ul>    
-        <h2>Skills</h2> 
-        <li>HTML </li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        
-        <br></b>
-        <h3>CONTACT ME!</h3>     
-        <a href="https://www.linkedin.com/in/mariamarlenepereira" target="_blank"> Let's connect on LinkedIn</a>    |    <a href="mailto:x22115234@student.ncirl.ie" target="_blank">Email me</a>
-    </body>
-</html>
+<!-- First Container -->
+        <div class="container-fluid bg-1 text-center">
+            <div style="color: rgba(95, 91, 91, 0.858);"> 
+            <div class="row">
+                <h3>Maria Marlene Pereira</h3>
+<!-- Responsive Image-->
+                <img src="photo.png" class="img-circle img-responsive" style="display:inline" alt="Professional headshot of me, wearing a red scarf wrapped around the neck" width="350" height="350"></p> 
+                <p>Hello!</p>
+                <p>My name is Maria and this is a very short version of my CV, using Boostrap Grids.</p>
+                <p>Should you wish to learn more about me, please read my Cover Letter.  <!--  If I wanted to insert the hyperlink here, I would use this: <a href="CoverLetter.html" target="_blank"> Cover Letter</a>.</p>-->
+                <p>Thank you so much for your time and I hope to hear back from you!</p>
+                <br></br>
+                <a href="CoverLetter.html" target="_blank" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-file"></span> Cover Letter
+                  </a>
+            </div>
+            </div>  
+        </div>
+
+<!-- Second Container -->
+        <div class="container-fluid bg-2 text-center">  
+        <div style="color: rgba(95, 91, 91, 0.858);">
+        <div class="row">
+            <div class="col-sm-4"><p><h2>What I studied</h2> 
+                <p>Science in Computing, NCI (2022)</p>
+                <p>Big Data for Business, DBS (2020)</p>
+                </p>
+            </div>
+            <div class="col-sm-4"><p><h2>Where I worked</h2>  
+                <p>Tech Support, Salesforce</p>
+                <p>Marketing Manager, other </p>
+            </div>
+            <div class="col-sm-4"><p><h2>What I can do</h2> 
+            <p>HTML & CSS</p>
+            <p>Javascript</p>
+            </div>
+        </div>  
+        </div>
+        </div>  
+
+<!-- Footer -->
+    <footer class="container-fluid bg-3 text-center">
+    <p>Let's talk?</p> 
+<!-- Component Email</i-->
+    <a href="mailto:x22115234@student.ncirl.ie" target="_blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-envelope"></span> Email</a>
+    <br></br>
+    <p>Find me also on</p> 
+<!-- Github -->
+<a class="btn btn-primary" style="background-color: #333333;" href="https://mmarlenepereira.github.io" role="button"
+  ><i class="fab fa-github">Github</i
+></a>
+<!-- Linkedin -->
+<a class="btn btn-primary" style="background-color: #333333;" href="https://www.linkedin.com/in/mariamarlenepereira" role="button"
+  ><i class="fab fa-linkedin-in">LinkedIn</i
+></a>
+    <p> Speak soon :) </p></p> 
+    </footer>
+  
+  </body>
+  </html>
