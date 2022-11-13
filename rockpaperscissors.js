@@ -25,7 +25,7 @@ playertwo=(prompt(nametwo+ ", choose Rock, Paper or Scissors"));
 
 // if statements will check the input of player1 against the input of player2  and will output the result
 
-    if(playerone=="Rock" && playertwo==()"Scissors"){ 
+    if(playerone=="Rock" && playertwo=="Scissors"){ 
         alert ("Player #1, " +nameone+ " won!");
     }
     else if (playerone=="Scissors" && playertwo=="Paper"){  
