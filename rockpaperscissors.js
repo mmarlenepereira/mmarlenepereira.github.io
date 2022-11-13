@@ -26,22 +26,22 @@ playertwo=(prompt(nametwo+ ", choose Rock, Paper or Scissors"));
 // if statements will check the input of player1 against the input of player2  and will output the result
 
     if(playerone=="Rock" && playertwo=="Scissors"){ 
-        alert ("Player #1, " +nameone+ " , won!");
+        alert ("Player #1, " +nameone+ ", won!");
     }
     else if (playerone=="Scissors" && playertwo=="Paper"){  
-        alert ("Player #1, " +nameone+ " , won!");
+        alert ("Player #1, " +nameone+ ", won!");
     }
     else if (playerone=="Paper" && playertwo=="Rock"){  
-        alert ("Player #1, " +nameone+ " , won!");
+        alert ("Player #1, " +nameone+ ", won!");
     }
     else if (playertwo=="Rock" && playerone=="Scissors"){
-        alert ("Player #2, " +nametwo+ " , won!");
+        alert ("Player #2, " +nametwo+ ", won!");
     }
     else if (playertwo=="Scissors" && playerone=="Paper"){  
-        alert ("Player #2, " +nametwo+ " , won!");
+        alert ("Player #2, " +nametwo+ ", won!");
     }
     else if (playertwo=="Paper" && playerone=="Rock"){  
-        alert ("Player #2, " +nametwo+ " , won!");
+        alert ("Player #2, " +nametwo+ ", won!");
     }
     else if (playertwo==playerone){  
         alert ("Tie! Both players chose the same option");
