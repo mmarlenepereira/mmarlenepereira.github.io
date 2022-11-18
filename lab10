@@ -1,0 +1,24 @@
+<!--Web Design and Client Side Scripting (HDSDEV_SEPBL_YR1)
+Week 10 Lab Submission
+Student: Maria Marlene Pereira / 22115234
+
+Question 4
+Create a preset array of numbers. Create a piece of code that chooses the largest number from that array -->
+
+
+
+<!DOCTYPE html>
+<html>
+    <title>Lab 10</title>
+    <link rel="stylesheet" href="style.css"/>
+    <head>
+        <body id="main">
+            <br> <b>Click in the buttons to reveal the corresponding numbers.</b></br>
+            <br>
+            <button onclick="showArray()" >Show Array</button>
+            <button onclick="showMax()">Show Maximum</button>
+            <button onclick="showMin()">Show Minimum</button>
+            <script src="script.js"></script>
+        </body>
+    </head>
+</html>
