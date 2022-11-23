@@ -19,7 +19,7 @@ for (i=0; i<=numsubjects-1; i=i+1){
 var mark=parseInt(prompt("Please insert your mark for subject # " +(i+1))); 
 total += mark;
 } // close the lopp
-//alert("Your total is " +total);
+alert("Your total is " +total);
 avg=total/numsubjects; // once we get the total, calculate the average and return it to the user using the alert method
 alert("Your avg result is " +avg);
 
