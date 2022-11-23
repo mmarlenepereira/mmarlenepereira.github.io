@@ -17,10 +17,10 @@ var numsubjects=parseInt(prompt("How many subjects do you have?"));
 //for loop to get the marks of each subject (as an integer) and sum the value of each iteration and store it in the variable total.
 for (i=0; i<=numsubjects-1; i=i+1){
 var mark=parseInt(prompt("Please insert your mark for subject # " +(i+1))); 
-total += mark(i);
+total = parseInt(total+ mark(i));
 } // close the lopp
 alert("Your total is " +total);
-avg=total/numsubjects; // once we get the total, calculate the average and return it to the user using the alert method
+avg=parseInt(total/numsubjects); // once we get the total, calculate the average and return it to the user using the alert method
 alert("Your avg result is " +avg);
 
 // create an if statement to return the grade of the student based on the average result calculated above.
