@@ -1,0 +1,16 @@
+
+
+<!-- Module: Copying a previous project just for the purpose of testing the integration of VS Code with GitHub
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is a Test</title>
+        <link rel="stylesheet" href="https://mmarlenepereira.github.io/stylelab10.css"/>
+    </head>
+
+    <body id="main">  <!-- id to identify the element in the js file --> 
+        <button onclick="Lyrics()"> Print Lyrics</button> <!-- button event to call the function --> 
+        <script src="https://mmarlenepereira.github.io/bottles.js"></script> <!-- connection to the javascript file that contains the function we're calling here --> 
+</html>
